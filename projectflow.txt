@@ -19,3 +19,7 @@ here, myremote->nickname, S3->can be path,url,location here its local folder
 >> dvc add data/ 
 
 here, data-> folder name of dataset to be tracked
+
+8) since git already tracking the folder, resolved the issue of adding it to gitignore and adding to dvc
+
+9) now >>dvc commit && >>dvc push ->these to make dvc insert from "data" folder to S3 and begin tracking (saving initial version)
