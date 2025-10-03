@@ -11,8 +11,8 @@ df = pd.DataFrame(data) #dictionary to dataframe
 
 
 # Adding a new row to df for version2
-# new_row_loc = {'Name': 'V2', 'Age':20, 'City':'city1'}
-# df.loc[len(df.index)] = new_row_loc
+new_row_loc = {'Name': 'GF1', 'Age':20, 'City':'Mumbai'}
+df.loc[len(df.index)] = new_row_loc
 
 # Adding new row to df for version3
 # new_row_loc2 = {'Name': 'V3', 'Age':30, 'City':'city2'}

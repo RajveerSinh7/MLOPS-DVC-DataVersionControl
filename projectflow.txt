@@ -23,3 +23,8 @@ here, data-> folder name of dataset to be tracked
 8) since git already tracking the folder, resolved the issue of adding it to gitignore and adding to dvc
 
 9) now >>dvc commit && >>dvc push ->these to make dvc insert from "data" folder to S3 and begin tracking (saving initial version)
+
+10) append row in new data to implement a change in our .csv datafile
+track changes by >>dvc status
+
+11) >>dvc commit && >>dvc push :these will save new data in S3 along with old data (different versions)
