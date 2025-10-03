@@ -30,3 +30,6 @@ track changes by >>dvc status
 11) >>dvc commit && >>dvc push :these will save new data in S3 along with old data (different versions)
 
 12) add one more row (version 3)
+
+-----ROLLBACK BETWEEN VERSIONS-----
+
